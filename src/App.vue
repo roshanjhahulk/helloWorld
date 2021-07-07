@@ -1,16 +1,12 @@
 <template>
 
   <nav id="navbar-top" class="navbar navbar-light ">
-    <div class="container-fluid">
-      <a class="navbar-brand wh-color f-20">Countries</a>
-      <form class="d-flex">
-        <input class="form-control me-2" type="search" placeholder="Search countries" aria-label="Search">
-        <button id="submit-bttn" class="btn btn-outline-success wh-color mx-2" type="submit">Search</button>
-      </form>
+    <div class="container-fluid justify-content-center align-self-center">
+      <a class="navbar-brand wh-color f-20">Countries</a> 
     </div>
   </nav>
   
-  <div class="row align-items-center d-flex m-5">
+  <div class="row align-items-centerd-flex m-5">
    <Card ></Card>
   </div>
   
