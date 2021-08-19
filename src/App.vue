@@ -1,27 +1,17 @@
 <template>
+<div id="app">
+  <Header></Header>
+   <router-view></router-view>
+  
+</div>
 
-  <nav id="navbar-top" class="navbar navbar-light ">
-    <div class="container-fluid justify-content-center align-self-center">
-      <a class="navbar-brand wh-color f-20">Countries</a> 
-    </div>
-  </nav>
-  
-  <div class="row align-items-centerd-flex m-5">
-   <Card ></Card>
-  </div>
-  
-  
 </template>
 
 <script>
-import Card from './components/Card.vue'
+import Header from './components/Header.vue';
 export default {
-  components: { Card },
+  components: {  Header },
   name: 'App',
-  component : {
-    Card,
-  },
-  
 }
 </script>
 
@@ -45,10 +35,4 @@ export default {
 .f-20{
   font-size: 25px !important;
 }
-
-#submit-bttn{
-  background:rgb(0, 51, 0);
-  
-}
-
 </style>
